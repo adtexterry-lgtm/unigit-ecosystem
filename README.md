@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/hero.svg" alt="UNIGIT — 让每一个普通人真正用上 AI" width="100%" />
+  <img src="./assets/hero.png" alt="UNIGIT — AI should work for everyone" width="100%" />
 </div>
 
 <p align="center">
