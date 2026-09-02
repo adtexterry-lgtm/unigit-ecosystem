@@ -1,0 +1,10 @@
+{
+  "name": "@unigit/public-ecosystem-hub",
+  "version": "0.1.0",
+  "private": true,
+  "description": "UNIGIT public brand and ecosystem hub",
+  "license": "MIT",
+  "scripts": {
+    "verify": "node scripts/check-public-boundary.mjs"
+  }
+}

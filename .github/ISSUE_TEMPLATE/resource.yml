@@ -1,0 +1,74 @@
+name: 推荐一项资源
+description: 推荐值得 UNIGIT 关注的模型、MCP、工具、Skill、模板或知识资源
+title: "[Resource] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢推荐。请只提交公开信息，不要填写密钥、客户数据、生产地址或未获授权的内容。
+  - type: dropdown
+    id: category
+    attributes:
+      label: 资源类型
+      options:
+        - 模型或推理资源
+        - MCP 或工具
+        - Skill 或工作模板
+        - 知识资源或数据连接器
+        - 行业能力
+        - 其他
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: 资源名称
+      placeholder: 公开名称
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: 官方来源
+      description: 官网、官方文档或官方仓库链接
+      placeholder: https://
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: 许可证或使用条款
+      description: 不确定时请写“未知”，不要猜测
+      placeholder: MIT / Apache-2.0 / Commercial / Unknown
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: 它能帮助用户完成什么
+      description: 请描述真实任务价值，不只罗列功能名
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 维护与可靠性信息
+      description: 可填写版本、更新时间、维护者、真实使用经验或已知限制
+    validations:
+      required: true
+  - type: textarea
+    id: security
+    attributes:
+      label: 安装、权限与安全说明
+      description: 需要哪些权限、是否下载外部二进制、是否访问网络或用户文件
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: 提交确认
+      options:
+        - label: 我没有在本 Issue 中提交密钥、个人信息、客户数据或未获授权的内容
+          required: true
+        - label: 我已提供可公开核对的来源；未知事实已明确标为未知
+          required: true

@@ -1,0 +1,49 @@
+<svg width="1200" height="460" viewBox="0 0 1200 460" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">UNIGIT</title>
+  <desc id="desc">让每一个普通人真正用上 AI</desc>
+  <defs>
+    <linearGradient id="bg" x1="62" y1="20" x2="1128" y2="438" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#090B12"/>
+      <stop offset="0.55" stop-color="#10101A"/>
+      <stop offset="1" stop-color="#08080E"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="350" y1="120" x2="860" y2="350" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF7A22"/>
+      <stop offset="0.48" stop-color="#FF315B"/>
+      <stop offset="1" stop-color="#7C42FF"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(920 92) rotate(137) scale(390 310)">
+      <stop stop-color="#6938FF" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#6938FF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="32"/>
+    </filter>
+  </defs>
+  <rect x="1" y="1" width="1198" height="458" rx="30" fill="url(#bg)" stroke="#2B2D39"/>
+  <ellipse cx="918" cy="102" rx="330" ry="250" fill="url(#glow)"/>
+  <circle cx="158" cy="380" r="116" fill="#FF5C26" fill-opacity="0.08" filter="url(#blur)"/>
+  <path d="M770 35C906 50 1031 134 1106 252" stroke="url(#brand)" stroke-width="2" stroke-linecap="round" stroke-opacity="0.38"/>
+  <path d="M804 56C920 74 1020 147 1084 250" stroke="#FFFFFF" stroke-opacity="0.08" stroke-linecap="round"/>
+  <g transform="translate(86 82)">
+    <rect width="78" height="78" rx="22" fill="#151521" stroke="#343445"/>
+    <circle cx="45" cy="39" r="23" fill="url(#brand)"/>
+    <path d="M29 30L18 39L29 48" stroke="#FF4A3A" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M39 31L49 39L39 47" stroke="#11131A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="190" y="132" fill="#F7F7FB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="29" font-weight="700" letter-spacing="8">UNIGIT</text>
+  <text x="88" y="238" fill="#FFFFFF" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="54" font-weight="720">让每一个普通人</text>
+  <text x="88" y="305" fill="url(#brand)" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="54" font-weight="720">真正用上 AI</text>
+  <text x="91" y="357" fill="#A9ABB8" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="20">模型 · 工具 · 文件 · 项目上下文，在一个清晰的工作台里完成真实工作</text>
+  <g transform="translate(898 176)">
+    <rect width="196" height="150" rx="26" fill="#11121A" stroke="#363746"/>
+    <rect x="22" y="23" width="152" height="18" rx="9" fill="#252634"/>
+    <circle cx="34" cy="32" r="4" fill="#FF6534"/>
+    <rect x="22" y="58" width="96" height="10" rx="5" fill="#4C4D5C"/>
+    <rect x="22" y="79" width="133" height="10" rx="5" fill="#333442"/>
+    <rect x="22" y="100" width="116" height="10" rx="5" fill="#333442"/>
+    <rect x="22" y="122" width="66" height="8" rx="4" fill="url(#brand)"/>
+  </g>
+  <circle cx="1096" cy="350" r="5" fill="#FF6331"/>
+  <circle cx="1116" cy="350" r="5" fill="#894DFF"/>
+</svg>
