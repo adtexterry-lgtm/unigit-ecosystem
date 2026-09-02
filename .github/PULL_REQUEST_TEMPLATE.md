@@ -1,19 +1,19 @@
-## 这次修改了什么
+## What changed
 
 
-## 为什么适合公开
+## Why this belongs in public scope
 
 
-## 外部来源与许可证
+## External sources and licenses
 
 
-## 验证方式
+## Verification
 
 
-## 公开边界确认
+## Public-boundary checklist
 
-- [ ] 不包含密钥、客户数据、个人信息、生产配置或私有源码
-- [ ] 不复制任何 UNIGIT 私有仓库历史或内部文档
-- [ ] 示例数据完全合成
-- [ ] 外部材料已标明来源和许可证
-- [ ] 没有把未来方向描述成已经交付的能力
+- [ ] Contains no credentials, customer data, personal information, production configuration, or private source
+- [ ] Copies no history or internal documentation from a private UNIGIT repository
+- [ ] Uses wholly synthetic example data
+- [ ] Identifies the source and license of all external material
+- [ ] Does not present future direction as an already shipped capability

@@ -1,56 +1,56 @@
-name: 提出合作意向
-description: 面向模型、能力、行业、内容、渠道与商业合作伙伴
+name: Propose a partnership
+description: For model, capability, industry, content, channel, and commercial partners
 title: "[Partnership] "
 body:
   - type: markdown
     attributes:
       value: |
-        请先提供不含秘密的合作概述。合同、报价、账号与技术凭据不要放在公开 Issue 中。
+        Start with a secret-free public summary. Do not post contracts, pricing, account information, or technical credentials in a public Issue.
   - type: dropdown
     id: category
     attributes:
-      label: 合作方向
+      label: Partnership area
       options:
-        - 模型或基础设施
-        - MCP、工具或能力开发
-        - 行业知识或内容
-        - 渠道、代理或市场
-        - 生态共创
-        - 其他
+        - Models or infrastructure
+        - MCP, tools, or capability development
+        - Industry knowledge or content
+        - Channels, partners, or marketing
+        - Ecosystem co-creation
+        - Other
     validations:
       required: true
   - type: input
     id: organization
     attributes:
-      label: 个人或组织名称
+      label: Person or organization
     validations:
       required: true
   - type: input
     id: public_link
     attributes:
-      label: 可公开核对的链接
-      description: 官网、产品页、作品集或官方主页
+      label: Publicly verifiable link
+      description: Website, product page, portfolio, or official profile
       placeholder: https://
     validations:
       required: true
   - type: textarea
     id: proposal
     attributes:
-      label: 合作设想
-      description: 你能提供什么，希望共同为哪类用户创造什么价值
+      label: Partnership idea
+      description: What can you contribute, and which users could we create value for together?
     validations:
       required: true
   - type: textarea
     id: next_step
     attributes:
-      label: 建议的下一步
-      description: 请勿在此填写私人联系方式、合同、报价或访问凭据
+      label: Suggested next step
+      description: Do not include private contact details, contracts, pricing, or access credentials
     validations:
       required: true
   - type: checkboxes
     id: confirmation
     attributes:
-      label: 提交确认
+      label: Confirmation
       options:
-        - label: 本 Issue 只包含可公开信息，不含秘密、个人信息或客户数据
+        - label: This Issue contains public information only and includes no secrets, personal information, or customer data
           required: true

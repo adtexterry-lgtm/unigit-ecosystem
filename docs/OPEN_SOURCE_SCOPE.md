@@ -1,43 +1,43 @@
-# 公开范围与私有边界
+# Public Scope and Private Boundary
 
-这个仓库采用**全新目录、全新 Git 历史、白名单发布**。它与 UNIGIT 的任何私有源码仓库、生产仓库和内部工作树没有 Git 继承关系。
+This repository was created with a **new directory, new Git history, and allowlisted publication process**. It has no Git ancestry or synchronization relationship with any UNIGIT private source repository, production repository, or internal worktree.
 
-## 可以公开
+## In public scope
 
-- 品牌与产品概览；
-- 愿景、价值观和公开路线方向；
-- 生态合作说明与资源索引；
-- 不包含真实业务逻辑的合成示例；
-- 经版本化、经审查、明确承诺公开维护的扩展契约；
-- 贡献、安全、商标和公开仓治理文件。
+- brand and product overviews;
+- public vision, values, and directional roadmap;
+- ecosystem collaboration guides and resource indexes;
+- synthetic examples with no real business logic;
+- versioned and reviewed extension contracts explicitly committed to public maintenance; and
+- contribution, security, trademark, and public-repository governance files.
 
-## 不公开
+## Outside public scope
 
-- 桌面端、移动端、服务端、管理端与官网私有源码；
-- 模型网关、智能路由、计费、钱包、结算与供应链实现；
-- Harness、工具执行器、Computer Use、Office、浏览器和系统控制实现；
-- 上下文管理、任务恢复、多 Agent、插件运行时和能力商店内部实现；
-- 数据库结构、迁移、生产基础设施、部署脚本与运维记录；
-- 内部需求、测试证据、供应商资料、商业价格与谈判信息；
-- 密钥、令牌、生产配置、日志、客户数据和私有文件；
-- 任何私有仓库 Git 历史、commit、branch、tag、submodule、镜像或自动同步。
+- private source for desktop, mobile, server, admin, or website products;
+- model gateway, smart routing, billing, wallet, settlement, or provider-supply implementation;
+- internal harness, tool executor, computer use, Office, browser, or system-control implementation;
+- context management, task recovery, multi-agent systems, plugin runtime, or capability-marketplace internals;
+- database schemas, migrations, production infrastructure, deployment scripts, or operations records;
+- internal requirements, test evidence, provider information, commercial pricing, or negotiation material;
+- keys, tokens, production configuration, logs, customer data, or private files; and
+- any private repository history, commit, branch, tag, submodule, mirror, or automated synchronization.
 
-## 未来产品的公开基线
+## Public baseline for future product areas
 
-| 方向 | 适合公开 | 保持私有 |
+| Area | Suitable for public release | Kept private |
 | --- | --- | --- |
-| 能力商店 | Manifest、稳定 SDK、合成示例、提交规范 | 审核、签名、安装、排名、分润、权限与商业能力 |
-| 知识库 | 连接器契约、来源声明格式、合成数据示例 | 语料、检索、质量评估、用户知识和生产索引 |
-| 智能工作台 | 扩展点、Mock Host、无敏感 UI 示例 | 产品 UI、模型循环、工具层、上下文、恢复和执行环境 |
-| 模型生态 | 公开能力索引、公开来源链接 | 实际线路、成本、质量记录、路由和供应商合同 |
+| Capability marketplace | Manifest, stable SDK, synthetic examples, submission guide | Review, signing, installation, ranking, revenue share, permissions, commercial systems |
+| Knowledge base | Connector contracts, source-declaration format, synthetic data examples | Corpus, retrieval, quality evaluation, user knowledge, production indexes |
+| Intelligent workbench | Extension points, mock host, non-sensitive UI examples | Product UI, model loop, tool layer, context, recovery, execution environment |
+| Model ecosystem | Public capability index and source links | Real routes, cost, quality records, routing, provider contracts |
 
-## 发布规则
+## Publication rules
 
-1. 只从空白公开仓创建内容，不从私有仓导入历史。
-2. 新文件默认视为不可公开，必须经过明确白名单判断。
-3. 发布前执行秘密扫描、路径扫描、链接检查和人工 diff 复核。
-4. 公开示例必须使用合成数据，不得由真实客户资料“脱敏改写”得到。
-5. 公开仓中出现的 roadmap 仅表示方向，不构成交付日期承诺。
-6. 发现误公开内容时立即停止传播、轮换受影响凭据并按 GitHub 安全流程处理；不得只删除最新提交后宣称问题消失。
+1. Create public content in this standalone repository; never import private Git history.
+2. Treat every new file as private by default until it passes an explicit public allowlist review.
+3. Before publishing, run secret scans, path scans, link checks, and a manual diff review.
+4. Public examples must use wholly synthetic data and must not be derived by “anonymizing” real customer material.
+5. Roadmap language in this repository expresses direction, not a delivery-date commitment.
+6. If private material is exposed, stop propagation, rotate affected credentials, and follow GitHub’s sensitive-data removal process. Deleting only the latest commit is not remediation.
 
-本文件描述公开仓边界，不授予访问任何私有系统或资料的权利。
+This document defines the public repository boundary. It grants no access to any private system or material.

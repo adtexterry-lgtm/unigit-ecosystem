@@ -1,73 +1,67 @@
-# UNIGIT 愿景与价值观
+# UNIGIT Vision and Values
 
-## 愿景
+## Vision
 
-**让每一个普通人真正用上 AI。**
+**AI should work for everyone.**
 
-AI 的价值不应只属于懂模型、懂 API、会配置环境、能购买多个海外会员的人。它应该像搜索、支付和办公软件一样，逐渐成为普通人自然使用的生产力。
+The value of AI should not be reserved for people who understand model catalogs, APIs, environment setup, or multiple overseas subscriptions. Like search, payments, and office software, AI should become a natural part of everyday productivity.
 
-UNIGIT 想做的不是再增加一个需要学习的 AI 产品，而是减少用户开始使用 AI 之前必须跨过的门槛。
+UNIGIT is not trying to add another AI product people must study before they can use it. We are trying to remove the barriers between a person and useful work.
 
-## 我们要缩短的距离
+## The distance we want to close
 
-```text
-听说 AI 很厉害
-    ↓
-知道它也许能帮我
-    ↓
-能够把资料交给它
-    ↓
-它真的开始工作
-    ↓
-我拿到可以打开、保存、修改和继续使用的成果
-```
+1. I hear that AI is powerful.
+2. I realize it may be able to help me.
+3. I can give it the material it needs.
+4. It actually starts working.
+5. I receive a result I can open, save, edit, and keep using.
 
-真正的产品价值，不在第一句话，而在最后一个结果。
+The real product value is not in the first sentence. It is in the final result.
 
-## 核心价值观
+## Core values
 
-### 1. 真实结果胜过漂亮表演
+### 1. Real outcomes over polished theater
 
-不能打开的链接不是交付，未写入的文件不是成果，未执行的工具调用不是完成。系统应诚实呈现实际状态，并尽最大努力让任务继续。
+A link that cannot be opened is not a deliverable. A file that was never written is not an artifact. A tool call that never ran is not completion. The system should report reality honestly and help the task keep moving.
 
-### 2. 支持模型，而不是管死模型
+### 2. Support the model—do not micromanage it
 
-UNIGIT 提供工具、资源、权限说明和环境反馈。模型根据用户目标决定工作路径。辅助能力应以清晰引导和可发现能力存在，而不是变成莫名其妙的工作流门禁。
+UNIGIT provides tools, resources, permission context, and environment feedback. The model chooses a path based on the user’s goal. Support should arrive as clear guidance and discoverable capability, not as arbitrary workflow gates.
 
-### 3. 简单不是功能少，而是认知负担低
+### 3. Simplicity means low cognitive load
 
-常用能力应稳定、统一、一目了然；不常用能力应按需发现和加载。用户不需要面对一整面控制台，模型也不需要在无关工具里浪费思考。
+Common capabilities should be stable, unified, and easy to understand. Less common capabilities should be discoverable and loaded on demand. Users should not face a wall of controls, and models should not spend reasoning time navigating irrelevant tools.
 
-### 4. 宽兼容，少拒绝
+### 4. Broad compatibility, fewer premature refusals
 
-文件、工具、模型和工作场景应尽可能宽准入。系统负责解析、接线和提供真实反馈，而不是因为格式、关键词或预设路径不同就提前判死任务。
+Files, tools, models, and work scenarios should be admitted as broadly as practical. The system should parse, connect, and return honest feedback instead of killing a task because its format, wording, or path differs from a preset.
 
-### 5. 用户拥有选择权
+### 5. Users keep the choice
 
-用户可以选择模型、成本偏好、是否授权新能力，以及如何使用成果。智能路由用于降低选择成本，不用于夺走选择权。
+Users choose their model, cost preference, capability permissions, and how results are used. Smart routing should reduce selection effort—not remove agency.
 
-### 6. 商业必须建立在持续价值上
+### 6. Sustainable business follows sustained value
 
-UNIGIT 希望通过真实使用、能力生态和长期服务建立可持续商业，而不是用信息差和复杂规则困住用户。
+UNIGIT aims to build a durable business through real usage, a useful capability ecosystem, and long-term service—not through information asymmetry or rules designed to trap users.
 
-## 产品原则
+## Product principles
 
-UNIGIT 真正需要负责的是：
+UNIGIT is responsible for:
 
-- 给模型一套稳定、语义清晰的工具；
-- 告诉模型当前有哪些资源、权限和现实限制；
-- 给它真实环境反馈；
-- 记录成本、状态和结果；
-- Provider 出问题时切线；
-- 把上下文和项目状态交接好。
+- giving the model a stable, semantically clear tool set;
+- stating what resources, permissions, and real-world constraints exist;
+- providing honest environment feedback;
+- recording cost, state, and results;
+- switching providers when a route fails; and
+- handing off context and project state cleanly.
 
-不应该负责的是：命令所有模型按照同一条固定流程工作，或用缺乏事实依据的限制直接终止用户任务。
+UNIGIT is not responsible for forcing every model through one prescribed workflow or ending a user task with restrictions that lack factual justification.
 
-## 我们对开放生态的理解
+## What openness means to us
 
-开放不等于把所有核心实现公开。真正健康的开放，是建立稳定、清晰、可长期依赖的边界：
+Open does not mean publishing every core implementation. Healthy openness means creating boundaries that are stable, clear, and dependable:
 
-- 对外公开必要的契约、示例、品牌信息和合作入口；
-- 允许能力开发者在明确规则下接入和获得回报；
-- 保护用户数据、生产安全、商业系统与产品核心；
-- 不用开放之名转移维护责任，也不以封闭之名阻止生态成长。
+- publish the contracts, examples, brand information, and collaboration entry points the ecosystem needs;
+- let capability builders integrate under clear rules and participate in the value they create;
+- protect user data, production security, commercial systems, and the product core; and
+- do not use openness to offload maintenance, or closed ownership to prevent an ecosystem from growing.

@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: UNIGIT 官方网站
+  - name: UNIGIT Website
     url: https://unigit.ai/
-    about: 了解产品、当前可用范围与官方信息
-  - name: 安全问题
+    about: Product information, current availability, and official updates
+  - name: Security
     url: https://unigit.ai/security/
-    about: 请勿在公开 Issue 中披露漏洞、密钥或用户数据
+    about: Do not disclose vulnerabilities, credentials, or user data in a public Issue

@@ -1,74 +1,74 @@
-name: 推荐一项资源
-description: 推荐值得 UNIGIT 关注的模型、MCP、工具、Skill、模板或知识资源
+name: Recommend a resource
+description: Recommend a model, MCP server, tool, skill, template, or knowledge resource for UNIGIT to review
 title: "[Resource] "
 body:
   - type: markdown
     attributes:
       value: |
-        感谢推荐。请只提交公开信息，不要填写密钥、客户数据、生产地址或未获授权的内容。
+        Thank you for the recommendation. Submit public information only. Never include credentials, customer data, production endpoints, or unauthorized material.
   - type: dropdown
     id: category
     attributes:
-      label: 资源类型
+      label: Resource type
       options:
-        - 模型或推理资源
-        - MCP 或工具
-        - Skill 或工作模板
-        - 知识资源或数据连接器
-        - 行业能力
-        - 其他
+        - Model or inference resource
+        - MCP server or tool
+        - Skill or work template
+        - Knowledge resource or data connector
+        - Domain capability
+        - Other
     validations:
       required: true
   - type: input
     id: name
     attributes:
-      label: 资源名称
-      placeholder: 公开名称
+      label: Resource name
+      placeholder: Public name
     validations:
       required: true
   - type: input
     id: source
     attributes:
-      label: 官方来源
-      description: 官网、官方文档或官方仓库链接
+      label: Official source
+      description: Official website, documentation, or repository URL
       placeholder: https://
     validations:
       required: true
   - type: input
     id: license
     attributes:
-      label: 许可证或使用条款
-      description: 不确定时请写“未知”，不要猜测
+      label: License or terms of use
+      description: Write "Unknown" when the answer is not documented; do not guess
       placeholder: MIT / Apache-2.0 / Commercial / Unknown
     validations:
       required: true
   - type: textarea
     id: value
     attributes:
-      label: 它能帮助用户完成什么
-      description: 请描述真实任务价值，不只罗列功能名
+      label: What real work can it help users complete?
+      description: Describe task value, not only feature names
     validations:
       required: true
   - type: textarea
     id: evidence
     attributes:
-      label: 维护与可靠性信息
-      description: 可填写版本、更新时间、维护者、真实使用经验或已知限制
+      label: Maintenance and reliability evidence
+      description: Include version, update date, maintainer, real usage evidence, or known limitations when available
     validations:
       required: true
   - type: textarea
     id: security
     attributes:
-      label: 安装、权限与安全说明
-      description: 需要哪些权限、是否下载外部二进制、是否访问网络或用户文件
+      label: Installation, permissions, and security
+      description: Note required permissions, external binary downloads, network access, or user-file access
     validations:
       required: true
   - type: checkboxes
     id: confirmation
     attributes:
-      label: 提交确认
+      label: Confirmation
       options:
-        - label: 我没有在本 Issue 中提交密钥、个人信息、客户数据或未获授权的内容
+        - label: This Issue contains no credentials, personal information, customer data, or unauthorized material
           required: true
-        - label: 我已提供可公开核对的来源；未知事实已明确标为未知
+        - label: I provided a publicly verifiable source and marked undocumented facts as unknown
           required: true

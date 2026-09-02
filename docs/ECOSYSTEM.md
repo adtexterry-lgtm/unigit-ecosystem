@@ -1,49 +1,49 @@
-# UNIGIT 生态合作
+# The UNIGIT Ecosystem
 
-UNIGIT 希望连接的不是“更多名词”，而是能帮助真实用户完成任务的资源。
+UNIGIT is not looking for more labels. We are looking for resources that help real users complete real tasks.
 
-## 欢迎的资源类型
+## Resources we welcome
 
-| 类型 | 我们关注什么 |
+| Type | What matters to us |
 | --- | --- |
-| 模型与推理资源 | 稳定、能力边界清楚、适合真实任务、计量可核对 |
-| MCP 与工具 | 语义清楚、安装可靠、输入输出可理解、失败可恢复 |
-| Skill 与模板 | 能减少模型理解成本，同时不过度规定工作路径 |
-| 知识资源 | 权属清楚、来源可追溯、适合按需读取与更新 |
-| 行业能力 | 对文档、设计、研发、研究、数据或专业工作有真实价值 |
-| 渠道与合作 | 能让更多过去难以使用 AI 的人群获得实际结果 |
+| Models and inference | Stable delivery, clear capability boundaries, task relevance, and auditable metering |
+| MCP servers and tools | Clear semantics, reliable installation, understandable inputs and outputs, and recoverable failure |
+| Skills and templates | Less interpretation cost for the model without over-prescribing its working path |
+| Knowledge resources | Clear rights, traceable provenance, and useful on-demand access and updates |
+| Domain capabilities | Real value in documents, design, software, research, data, or professional work |
+| Channels and partnerships | Practical access for people who have previously found AI difficult to use |
 
-## 资源推荐流程
+## Recommend a resource
 
-1. 使用 [资源推荐表单](../../issues/new?template=resource.yml) 提供公开来源、许可证、维护状态和典型用途。
-2. UNIGIT 会先判断它是否能为真实任务增加价值，并核对来源与基本安全事实。
-3. 适合公开收录的资源可以进入本仓清单；需要产品接入、商业合作或私有评估的内容会转入独立流程。
-4. 被收录不等于产品已经集成，也不构成质量、合规或长期可用性的保证。
+1. Use the [resource form](../../issues/new?template=resource.yml) to provide a public source, license, maintenance status, and representative use cases.
+2. UNIGIT will first assess whether the resource can add value to real work, then verify source and basic security facts.
+3. Publicly suitable resources may be listed here. Product integration, commercial collaboration, and private evaluation follow separate processes.
+4. A public listing does not mean the resource is integrated into UNIGIT, nor is it a guarantee of quality, compliance, or long-term availability.
 
-## 合作方向
+## Partnership paths
 
-### 能力开发者
+### Capability builders
 
-如果你维护 MCP、工具、Skill、模板或专业能力，我们希望帮助它进入真实任务现场，而不只是停留在演示中。
+If you maintain an MCP server, tool, skill, template, or professional capability, we want to help it reach real task contexts—not just demos.
 
-### 模型与基础设施伙伴
+### Model and infrastructure partners
 
-UNIGIT 关注多模型在真实文件、长任务、工具调用和持续上下文中的表现。欢迎有稳定供给和清晰商业接口的伙伴联系。
+UNIGIT is interested in how models perform with real files, long-running tasks, tool use, and persistent context. We welcome partners with dependable supply and clear commercial interfaces.
 
-### 行业专家与内容伙伴
+### Domain experts and knowledge partners
 
-行业知识真正有价值的前提，是来源可靠、结构可用、持续更新，并能在任务需要时被模型准确取用。
+Domain knowledge creates value when it is trustworthy, structured, maintainable, and available to the model at the moment a task needs it.
 
-### 渠道与商业伙伴
+### Channel and commercial partners
 
-我们欢迎能触达真实用户、愿意长期服务用户并共同建立口碑的伙伴。合作应以用户获得实际价值为前提。
+We welcome partners who can reach real users, serve them over time, and build trust together. Every partnership should begin with tangible user value.
 
-## 我们不会通过公开 Issue 收集什么
+## Never submit these through a public Issue
 
-- API 密钥、账号密码、访问令牌或生产地址；
-- 客户文件、个人信息或未脱敏业务数据；
-- 未经授权的付费内容、模型权重、数据集或软件；
-- 需要保密的合同、价格和商务条款；
-- UNIGIT 私有系统的实现细节或安全绕过信息。
+- API keys, passwords, access tokens, or production endpoints;
+- customer files, personal information, or unredacted business data;
+- unauthorized paid content, model weights, datasets, or software;
+- confidential contracts, prices, or commercial terms; or
+- implementation details or bypass information for private UNIGIT systems.
 
-涉及非公开材料时，请先只提交不含秘密的合作概述，后续再使用双方确认的渠道交换资料。
+For non-public material, submit only a secret-free partnership summary first. Exchange sensitive information later through a channel confirmed by both parties.

@@ -1,44 +1,67 @@
 <svg width="1200" height="460" viewBox="0 0 1200 460" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">UNIGIT</title>
+  <title id="title">UNIGIT OS</title>
   <desc id="desc">AI should work for everyone</desc>
   <defs>
-    <linearGradient id="bg" x1="62" y1="20" x2="1128" y2="438" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#090B12"/>
-      <stop offset="0.55" stop-color="#10101A"/>
-      <stop offset="1" stop-color="#08080E"/>
+    <linearGradient id="background" x1="70" y1="24" x2="1160" y2="460" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070910"/>
+      <stop offset="0.46" stop-color="#0B0914"/>
+      <stop offset="1" stop-color="#160A2B"/>
     </linearGradient>
-    <linearGradient id="brand" x1="350" y1="120" x2="860" y2="350" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FF7A22"/>
-      <stop offset="0.48" stop-color="#FF315B"/>
-      <stop offset="1" stop-color="#7C42FF"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(920 92) rotate(137) scale(390 310)">
-      <stop stop-color="#6938FF" stop-opacity="0.34"/>
-      <stop offset="1" stop-color="#6938FF" stop-opacity="0"/>
+    <radialGradient id="violet-field" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1018 66) rotate(131) scale(510 382)">
+      <stop stop-color="#7A32FF" stop-opacity="0.48"/>
+      <stop offset="0.48" stop-color="#4D1DB2" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#4D1DB2" stop-opacity="0"/>
     </radialGradient>
-    <filter id="blur" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="32"/>
+    <radialGradient id="ember-field" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(112 474) rotate(-49) scale(388 288)">
+      <stop stop-color="#FF6A1F" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#FF6A1F" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="spectrum" x1="650" y1="80" x2="1154" y2="406" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8024"/>
+      <stop offset="0.43" stop-color="#FF315F"/>
+      <stop offset="1" stop-color="#7C3FFF"/>
+    </linearGradient>
+    <linearGradient id="accent-line" x1="64" y1="0" x2="206" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8326"/>
+      <stop offset="0.52" stop-color="#FF315F"/>
+      <stop offset="1" stop-color="#8646FF"/>
+    </linearGradient>
+    <filter id="brand-blur" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="34"/>
     </filter>
+    <filter id="mascot-shadow" x="-30%" y="-30%" width="170%" height="180%">
+      <feDropShadow dx="0" dy="24" stdDeviation="22" flood-color="#210029" flood-opacity="0.72"/>
+    </filter>
+    <clipPath id="canvas-clip">
+      <rect width="1200" height="460"/>
+    </clipPath>
   </defs>
-  <rect x="1" y="1" width="1198" height="458" rx="30" fill="url(#bg)" stroke="#2B2D39"/>
-  <ellipse cx="918" cy="102" rx="330" ry="250" fill="url(#glow)"/>
-  <circle cx="158" cy="380" r="116" fill="#FF5C26" fill-opacity="0.08" filter="url(#blur)"/>
-  <path d="M770 35C906 50 1031 134 1106 252" stroke="url(#brand)" stroke-width="2" stroke-linecap="round" stroke-opacity="0.38"/>
-  <path d="M804 56C920 74 1020 147 1084 250" stroke="#FFFFFF" stroke-opacity="0.08" stroke-linecap="round"/>
-  <image x="86" y="76" width="78" height="78" href="unigit-icon.png" preserveAspectRatio="xMidYMid meet"/>
-  <text x="190" y="132" fill="#F7F7FB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="29" font-weight="700" letter-spacing="8">UNIGIT</text>
-  <text x="88" y="238" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="54" font-weight="720">AI SHOULD WORK</text>
-  <text x="88" y="305" fill="url(#brand)" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="54" font-weight="720">FOR EVERYONE</text>
-  <text x="91" y="357" fill="#A9ABB8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19">Models · Tools · Files · Project Context — one clear workbench for real results.</text>
-  <g transform="translate(898 176)">
-    <rect width="196" height="150" rx="26" fill="#11121A" stroke="#363746"/>
-    <rect x="22" y="23" width="152" height="18" rx="9" fill="#252634"/>
-    <circle cx="34" cy="32" r="4" fill="#FF6534"/>
-    <rect x="22" y="58" width="96" height="10" rx="5" fill="#4C4D5C"/>
-    <rect x="22" y="79" width="133" height="10" rx="5" fill="#333442"/>
-    <rect x="22" y="100" width="116" height="10" rx="5" fill="#333442"/>
-    <rect x="22" y="122" width="66" height="8" rx="4" fill="url(#brand)"/>
+
+  <g clip-path="url(#canvas-clip)">
+    <rect width="1200" height="460" fill="url(#background)"/>
+    <rect width="1200" height="460" fill="url(#violet-field)"/>
+    <rect width="1200" height="460" fill="url(#ember-field)"/>
+
+    <path d="M638 15C818 35 1054 132 1226 344" stroke="url(#spectrum)" stroke-width="108" stroke-linecap="round" opacity="0.07"/>
+    <path d="M696 14C884 56 1061 164 1218 347" stroke="url(#spectrum)" stroke-width="2.5" stroke-linecap="round" opacity="0.62"/>
+    <path d="M744 33C916 75 1069 177 1198 334" stroke="#E6D9FF" stroke-width="1" stroke-linecap="round" opacity="0.12"/>
+    <circle cx="923" cy="246" r="199" fill="#FF315F" fill-opacity="0.15" filter="url(#brand-blur)"/>
+    <circle cx="1066" cy="122" r="154" fill="#7040FF" fill-opacity="0.22" filter="url(#brand-blur)"/>
+
+    <image x="64" y="34" width="252" height="67" href="unigit-wordmark.png" preserveAspectRatio="xMinYMid meet"/>
+
+    <text x="64" y="215" fill="#F8F7FC" font-family="Bahnschrift, Aptos Display, Segoe UI, sans-serif" font-size="61" font-weight="700" letter-spacing="-1.6">AI SHOULD WORK</text>
+    <text x="64" y="280" fill="#F8F7FC" font-family="Bahnschrift, Aptos Display, Segoe UI, sans-serif" font-size="61" font-weight="700" letter-spacing="-1.6">FOR EVERYONE.</text>
+    <rect x="64" y="309" width="142" height="4" rx="2" fill="url(#accent-line)"/>
+    <text x="64" y="354" fill="#C2BBD0" font-family="Aptos, Inter, Segoe UI, sans-serif" font-size="18" letter-spacing="0.1">Models · Tools · Files · Project Context</text>
+    <text x="64" y="383" fill="#898297" font-family="Aptos, Inter, Segoe UI, sans-serif" font-size="16">One clear workbench for real results.</text>
+
+    <g opacity="0.9">
+      <circle cx="64" cy="423" r="3.5" fill="#FF7C24"/>
+      <circle cx="81" cy="423" r="3.5" fill="#FF315F"/>
+      <circle cx="98" cy="423" r="3.5" fill="#8444FF"/>
+    </g>
+
+    <image x="748" y="23" width="430" height="430" href="unigit-fireball-3d.png" preserveAspectRatio="xMidYMid meet" filter="url(#mascot-shadow)"/>
   </g>
-  <circle cx="1096" cy="350" r="5" fill="#FF6331"/>
-  <circle cx="1116" cy="350" r="5" fill="#894DFF"/>
 </svg>

@@ -1,16 +1,16 @@
-# 安全政策
+# Security Policy
 
-## 报告安全问题
+## Reporting a security issue
 
-请不要在公开 Issue、Discussion 或 Pull Request 中披露以下内容：
+Do not disclose any of the following in a public Issue, Discussion, or Pull Request:
 
-- 可被利用的安全漏洞细节；
-- API 密钥、访问令牌、账号或生产地址；
-- 客户数据、个人信息或内部日志；
-- UNIGIT 私有系统的未公开实现信息。
+- exploitable vulnerability details;
+- API keys, access tokens, account credentials, or production endpoints;
+- customer data, personal information, or internal logs; or
+- unpublished implementation details of private UNIGIT systems.
 
-本仓库当前只承载公开品牌与生态材料，不接受针对私有产品源码的公开补丁。安全联系入口开放前，请通过 [官方网站](https://unigit.ai/security/) 查看最新报告方式。
+This repository contains only public brand and ecosystem materials. It does not accept public patches for the private product source. Until a dedicated security contact is published, visit the [official security page](https://unigit.ai/security/) for the latest reporting channel.
 
-## 公开仓误提交
+## Accidental public disclosure
 
-如果发现疑似秘密或私有材料，请只报告文件路径与提交位置，不要复制内容。维护者会立即评估、轮换可能受影响的凭据，并按 GitHub 的敏感数据清理流程处理。
+If you find suspected private or sensitive material, report only the file path and commit location—do not copy the content. Maintainers will assess the exposure, rotate any affected credentials, and follow GitHub’s sensitive-data removal process.

@@ -1,32 +1,34 @@
-# 参与贡献
+# Contributing
 
-感谢你愿意帮助 UNIGIT 让更多人真正用上 AI。
+Thank you for helping UNIGIT make practical AI more accessible.
 
-## 最适合的参与方式
+## The most useful ways to contribute
 
-- 推荐一个来源清楚、能服务真实任务的模型、MCP、工具、Skill、模板或知识资源；
-- 改进公开文档的准确性、可读性和翻译；
-- 提交不含商业或安全敏感信息的合成示例；
-- 报告公开材料中的失效链接、错误说明或可访问性问题；
-- 提出生态合作意向。
+- recommend a model, MCP server, tool, skill, template, or knowledge resource with a clear public source and real task value;
+- improve the accuracy, readability, or translation of public documentation;
+- contribute wholly synthetic examples with no commercial or security-sensitive information;
+- report broken links, incorrect statements, or accessibility issues in public materials; or
+- introduce an ecosystem partnership.
 
-## 提交前请确认
+## Before you submit
 
-- 你有权提交这份内容；
-- 不包含任何密钥、客户数据、个人信息、生产配置或私有源码；
-- 不从 UNIGIT 私有仓库复制实现、文档或历史；
-- 外部资源带有公开来源和许可证说明；
-- 示例数据完全合成；
-- 没有把路线方向写成已经交付的产品能力。
+Confirm that:
 
-## Pull Request
+- you have the right to contribute the material;
+- it contains no credentials, customer data, personal information, production configuration, or private source;
+- it was not copied from any private UNIGIT repository, document, or Git history;
+- external resources include a public source and license or terms of use;
+- all example data is synthetic; and
+- future direction is not presented as an already shipped capability.
 
-请保持一次 PR 只解决一个问题，并说明：
+## Pull Requests
 
-1. 改了什么；
-2. 为什么适合公开；
-3. 使用了哪些外部材料及其许可证；
-4. 如何验证链接、示例或展示效果；
-5. 是否涉及 UNIGIT 商标或品牌资产。
+Keep each Pull Request focused on one issue and explain:
 
-维护者可能会因为公开边界、维护成本、权属不明或与当前方向不符而不合并内容。这不代表对内容价值的否定。
+1. what changed;
+2. why it belongs in public scope;
+3. which external materials were used and under what license;
+4. how links, examples, or visual output were verified; and
+5. whether the contribution uses UNIGIT trademarks or brand assets.
+
+Maintainers may decline a contribution because of the public boundary, maintenance cost, unclear ownership, or a mismatch with current direction. That decision is not a judgment on the general value of the work.

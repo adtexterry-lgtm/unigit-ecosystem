@@ -1,18 +1,18 @@
-# 商标与品牌资产
+# Trademarks and Brand Assets
 
-UNIGIT 名称、标识、图标、口号和相关品牌视觉是 UNIGIT 的品牌资产。
+The UNIGIT name, wordmarks, icons, taglines, and related visual identity are UNIGIT brand assets.
 
-本仓库的 MIT License 适用于明确纳入本仓的代码、文本和合成示例，但**不授予**使用 UNIGIT 商标、冒充官方产品、暗示合作背书或发布混淆性衍生产品的权利。
+The MIT License in this repository applies to code, text, and synthetic examples explicitly included under that license. It does **not** grant permission to use UNIGIT trademarks, impersonate an official product, imply endorsement or partnership, or publish a confusing derivative product.
 
-允许在合理范围内：
+Reasonable use includes:
 
-- 事实性地提及 UNIGIT；
-- 链接本仓库或官方网站；
-- 在评论、报道、兼容性说明中按合理比例展示官方标识。
+- referring to UNIGIT factually;
+- linking to this repository or the official website; and
+- displaying an official mark at a reasonable scale in commentary, reporting, or compatibility documentation.
 
-未经书面许可，不得：
+Without written permission, you may not:
 
-- 将 UNIGIT 名称或标识用于产品、服务、域名、账号或应用图标；
-- 宣称是官方版本、官方合作伙伴或获得 UNIGIT 背书；
-- 修改官方标识后用于商业传播；
-- 使用足以造成来源混淆的名称和视觉。
+- use the UNIGIT name or marks in a product, service, domain, account name, or application icon;
+- claim to be an official release, official partner, or UNIGIT-endorsed product;
+- modify an official mark for commercial promotion; or
+- use names or visuals likely to create confusion about origin.
